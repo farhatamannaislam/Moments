@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: 'Issue: As a **role** I can **capability** so that **received benefit**'
+name: User Story Template
+about: As a **role** I can **capability** so that **received benefit**
 title: ''
 labels: ''
 assignees: ''
