@@ -23,7 +23,7 @@ const Post = (props) => {
     postPage,
     setPosts,
   } = props;
-
+ 
   const currentUser = useCurrentUser();
   const is_owner = currentUser?.username === owner;
   const history = useHistory();
@@ -57,7 +57,9 @@ const Post = (props) => {
     }
   };
 
-  const handleUnlike = async () => {
+
+  
+   const handleUnlike = async () => {
     try {
       await axiosRes.delete(`/likes/${like_id}/`);
       setPosts((prevPosts) => ({
